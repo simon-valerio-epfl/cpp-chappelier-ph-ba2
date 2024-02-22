@@ -7,10 +7,6 @@ struct Rationnel
     int q;
 };
 
-void affiche()
-{
-}
-
 int pgcd(int a, int b)
 {
     int prev_u(1), prev_v(0), x(a), y(b), u(0), v(1);
