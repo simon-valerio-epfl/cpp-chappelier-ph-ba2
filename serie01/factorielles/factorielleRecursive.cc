@@ -1,3 +1,5 @@
+#include "factorielle.h"
+
 int factorielle(int n)
 {
     if (n == 0)

@@ -1,3 +1,5 @@
+#include "demander_nombre.h"
+
 #include <iostream>
 using namespace std;
 

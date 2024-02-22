@@ -1,3 +1,5 @@
+#include "factorielle.h"
+
 int factorielle(int n)
 {
     int res = 1;
