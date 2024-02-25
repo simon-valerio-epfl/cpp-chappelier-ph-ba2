@@ -47,15 +47,14 @@ public:
 
 int main()
 {
-	Patient quidam;
-	double poids, taille;
-	do
-	{
-		cout << "Entrez un poids (kg) et une taille (m) : ";
-		cin >> poids >> taille;
-		quidam.init(poids, taille);
-		quidam.afficher();
-		cout << "IMC : " << quidam.imc() << endl;
-	} while (poids * taille != 0.0);
-	return 0;
+  Patient quidam;
+  double poids, taille;
+  do {
+    cout << "Entrez un poids (kg) et une taille (m) : ";
+    cin >> poids >> taille;
+    quidam.init(poids, taille);
+    quidam.afficher();
+    cout << "IMC : " << quidam.imc() << endl;
+  } while (poids * taille != 0.0);
+  return 0;
 }
